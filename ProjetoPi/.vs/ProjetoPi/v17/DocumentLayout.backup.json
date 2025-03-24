@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\BIA\\source\\repos\\king\\ProjetoPi\\",
+  "WorkspaceRootPath": "C:\\Users\\BIA\\source\\repos\\reposit-rio\\ProjetoPi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74E130CF-981E-43FD-B613-F3B8D0EDC27D}|ProjetoPi\\ProjetoPi.csproj|c:\\users\\bia\\source\\repos\\king\\projetopi\\projetopi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{74E130CF-981E-43FD-B613-F3B8D0EDC27D}|ProjetoPi\\ProjetoPi.csproj|c:\\users\\bia\\source\\repos\\reposit-rio\\projetopi\\projetopi\\tabuleiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74E130CF-981E-43FD-B613-F3B8D0EDC27D}|ProjetoPi\\ProjetoPi.csproj|solutionrelative:projetopi\\tabuleiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E130CF-981E-43FD-B613-F3B8D0EDC27D}|ProjetoPi\\ProjetoPi.csproj|c:\\users\\bia\\source\\repos\\reposit-rio\\projetopi\\projetopi\\tabuleiro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E130CF-981E-43FD-B613-F3B8D0EDC27D}|ProjetoPi\\ProjetoPi.csproj|solutionrelative:projetopi\\tabuleiro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E130CF-981E-43FD-B613-F3B8D0EDC27D}|ProjetoPi\\ProjetoPi.csproj|c:\\users\\bia\\source\\repos\\reposit-rio\\projetopi\\projetopi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E130CF-981E-43FD-B613-F3B8D0EDC27D}|ProjetoPi\\ProjetoPi.csproj|solutionrelative:projetopi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E130CF-981E-43FD-B613-F3B8D0EDC27D}|ProjetoPi\\ProjetoPi.csproj|C:\\Users\\BIA\\source\\repos\\reposit-rio\\ProjetoPi\\projetopi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{74E130CF-981E-43FD-B613-F3B8D0EDC27D}|ProjetoPi\\ProjetoPi.csproj|solutionrelative:projetopi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -19,14 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\BIA\\source\\repos\\king\\ProjetoPi\\ProjetoPi\\Form1.cs",
-              "RelativeDocumentMoniker": "ProjetoPi\\Form1.cs",
-              "ToolTip": "C:\\Users\\BIA\\source\\repos\\king\\ProjetoPi\\ProjetoPi\\Form1.cs [Projeto]",
-              "RelativeToolTip": "ProjetoPi\\Form1.cs [Projeto]",
+              "Title": "Tabuleiro.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\BIA\\source\\repos\\reposit-rio\\ProjetoPi\\ProjetoPi\\Tabuleiro.cs",
+              "RelativeDocumentMoniker": "ProjetoPi\\Tabuleiro.cs",
+              "ToolTip": "C:\\Users\\BIA\\source\\repos\\reposit-rio\\ProjetoPi\\ProjetoPi\\Tabuleiro.cs [Projeto]*",
+              "RelativeToolTip": "ProjetoPi\\Tabuleiro.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T16:57:32.698Z",
+              "WhenOpened": "2025-03-24T18:20:45.657Z",
               "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tabuleiro.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\BIA\\source\\repos\\reposit-rio\\ProjetoPi\\ProjetoPi\\Tabuleiro.Designer.cs",
+              "RelativeDocumentMoniker": "ProjetoPi\\Tabuleiro.Designer.cs",
+              "ToolTip": "C:\\Users\\BIA\\source\\repos\\reposit-rio\\ProjetoPi\\ProjetoPi\\Tabuleiro.Designer.cs",
+              "RelativeToolTip": "ProjetoPi\\Tabuleiro.Designer.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAApwHcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T17:23:40.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\BIA\\source\\repos\\reposit-rio\\ProjetoPi\\ProjetoPi\\Form1.cs",
+              "RelativeDocumentMoniker": "ProjetoPi\\Form1.cs",
+              "ToolTip": "C:\\Users\\BIA\\source\\repos\\reposit-rio\\ProjetoPi\\ProjetoPi\\Form1.cs",
+              "RelativeToolTip": "ProjetoPi\\Form1.cs",
+              "ViewState": "AgIAADEBAAAAAAAAAAAQwDwBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T17:03:48.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\BIA\\source\\repos\\reposit-rio\\ProjetoPi\\ProjetoPi\\Form1.cs",
+              "RelativeDocumentMoniker": "ProjetoPi\\Form1.cs",
+              "ToolTip": "C:\\Users\\BIA\\source\\repos\\reposit-rio\\ProjetoPi\\ProjetoPi\\Form1.cs [Design]",
+              "RelativeToolTip": "ProjetoPi\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T16:57:32.698Z"
             }
           ]
         }
