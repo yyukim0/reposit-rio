@@ -114,3 +114,34 @@ C:\Users\BIA\source\repos\reposit-rio\ProjetoPi\ProjetoPi\bin\Debug\net8.0-windo
 C:\Users\BIA\source\repos\reposit-rio\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.csproj.Up2Date
 C:\Users\BIA\source\repos\reposit-rio\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.genruntimeconfig.cache
 C:\Users\BIA\source\repos\reposit-rio\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ref\ProjetoPi.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\bin\Debug\net8.0-windows\ProjetoPi.exe
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\bin\Debug\net8.0-windows\ProjetoPi.deps.json
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\bin\Debug\net8.0-windows\ProjetoPi.runtimeconfig.json
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\bin\Debug\net8.0-windows\ProjetoPi.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\bin\Debug\net8.0-windows\ProjetoPi.pdb
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\bin\Debug\net8.0-windows\KingMeServer.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\bin\Debug\net8.0-windows\KingMeServer.xml
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.csproj.AssemblyReference.cache
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.Form1.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.Form2.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.Menu.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.Properties.Resources.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.Tabuleiro.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.csproj.GenerateResource.cache
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.AssemblyInfoInputs.cache
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.AssemblyInfo.cs
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.csproj.CoreCompileInputs.cache
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.sourcelink.json
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.csproj.Up2Date
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\refint\ProjetoPi.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.pdb
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ProjetoPi.genruntimeconfig.cache
+C:\Users\vitor\OneDrive\Área de Trabalho\Nova pasta\ProjetoPi\ProjetoPi\obj\Debug\net8.0-windows\ref\ProjetoPi.dll

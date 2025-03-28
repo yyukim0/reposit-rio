@@ -87,7 +87,7 @@ namespace ProjetoPi
             // 
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(12, 149);
+            listBox1.Location = new Point(12, 147);
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(181, 79);
             listBox1.TabIndex = 2;
@@ -95,7 +95,9 @@ namespace ProjetoPi
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Location = new Point(387, 217);
             label1.Name = "label1";
             label1.Size = new Size(38, 15);
@@ -104,7 +106,9 @@ namespace ProjetoPi
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Location = new Point(387, 244);
             label2.Name = "label2";
             label2.Size = new Size(38, 15);
@@ -113,7 +117,9 @@ namespace ProjetoPi
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
             label3.Location = new Point(387, 276);
             label3.Name = "label3";
             label3.Size = new Size(38, 15);
@@ -132,8 +138,10 @@ namespace ProjetoPi
             // 
             // label4
             // 
+            label4.Anchor = AnchorStyles.Right;
             label4.AutoSize = true;
-            label4.Location = new Point(724, 415);
+            label4.BackColor = Color.Transparent;
+            label4.Location = new Point(731, 423);
             label4.Name = "label4";
             label4.Size = new Size(38, 15);
             label4.TabIndex = 7;
@@ -141,7 +149,7 @@ namespace ProjetoPi
             // 
             // button2
             // 
-            button2.Location = new Point(20, 374);
+            button2.Location = new Point(12, 385);
             button2.Name = "button2";
             button2.Size = new Size(150, 56);
             button2.TabIndex = 8;
@@ -151,7 +159,8 @@ namespace ProjetoPi
             // 
             // button1
             // 
-            button1.Location = new Point(588, 385);
+            button1.Anchor = AnchorStyles.Right;
+            button1.Location = new Point(608, 382);
             button1.Name = "button1";
             button1.Size = new Size(117, 56);
             button1.TabIndex = 9;
@@ -161,7 +170,7 @@ namespace ProjetoPi
             // 
             // button3
             // 
-            button3.Location = new Point(20, 317);
+            button3.Location = new Point(12, 319);
             button3.Name = "button3";
             button3.Size = new Size(150, 56);
             button3.TabIndex = 10;
@@ -171,7 +180,8 @@ namespace ProjetoPi
             // 
             // button4
             // 
-            button4.Location = new Point(406, 379);
+            button4.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            button4.Location = new Point(412, 382);
             button4.Name = "button4";
             button4.Size = new Size(150, 59);
             button4.TabIndex = 11;
@@ -181,7 +191,9 @@ namespace ProjetoPi
             // 
             // label5
             // 
+            label5.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
             label5.Location = new Point(387, 312);
             label5.Name = "label5";
             label5.Size = new Size(38, 15);
@@ -190,8 +202,10 @@ namespace ProjetoPi
             // 
             // lblCartas
             // 
+            lblCartas.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             lblCartas.AutoSize = true;
-            lblCartas.Location = new Point(215, 426);
+            lblCartas.BackColor = Color.Transparent;
+            lblCartas.Location = new Point(215, 415);
             lblCartas.Name = "lblCartas";
             lblCartas.Size = new Size(38, 15);
             lblCartas.TabIndex = 13;
@@ -215,6 +229,7 @@ namespace ProjetoPi
             // lblPedirSala
             // 
             lblPedirSala.AutoSize = true;
+            lblPedirSala.BackColor = Color.Transparent;
             lblPedirSala.Location = new Point(64, 32);
             lblPedirSala.Name = "lblPedirSala";
             lblPedirSala.Size = new Size(70, 15);
@@ -225,7 +240,8 @@ namespace ProjetoPi
             // lblPedirSenha
             // 
             lblPedirSenha.AutoSize = true;
-            lblPedirSenha.Location = new Point(198, 32);
+            lblPedirSenha.BackColor = Color.Transparent;
+            lblPedirSenha.Location = new Point(215, 32);
             lblPedirSenha.Name = "lblPedirSenha";
             lblPedirSenha.Size = new Size(84, 15);
             lblPedirSenha.TabIndex = 17;
@@ -233,7 +249,7 @@ namespace ProjetoPi
             // 
             // txtRequestSenha
             // 
-            txtRequestSenha.Location = new Point(198, 50);
+            txtRequestSenha.Location = new Point(216, 50);
             txtRequestSenha.Name = "txtRequestSenha";
             txtRequestSenha.Size = new Size(100, 23);
             txtRequestSenha.TabIndex = 16;
@@ -241,7 +257,8 @@ namespace ProjetoPi
             // lblPedirGrupo
             // 
             lblPedirGrupo.AutoSize = true;
-            lblPedirGrupo.Location = new Point(339, 32);
+            lblPedirGrupo.BackColor = Color.Transparent;
+            lblPedirGrupo.Location = new Point(349, 32);
             lblPedirGrupo.Name = "lblPedirGrupo";
             lblPedirGrupo.Size = new Size(86, 15);
             lblPedirGrupo.TabIndex = 19;
@@ -250,7 +267,7 @@ namespace ProjetoPi
             // 
             // txtRequestGrupo
             // 
-            txtRequestGrupo.Location = new Point(339, 50);
+            txtRequestGrupo.Location = new Point(349, 50);
             txtRequestGrupo.Name = "txtRequestGrupo";
             txtRequestGrupo.Size = new Size(100, 23);
             txtRequestGrupo.TabIndex = 18;
@@ -258,6 +275,7 @@ namespace ProjetoPi
             // lblPedirNome
             // 
             lblPedirNome.AutoSize = true;
+            lblPedirNome.BackColor = Color.Transparent;
             lblPedirNome.Location = new Point(471, 32);
             lblPedirNome.Name = "lblPedirNome";
             lblPedirNome.Size = new Size(85, 15);
@@ -274,7 +292,9 @@ namespace ProjetoPi
             // 
             // lblPedirId
             // 
+            lblPedirId.Anchor = AnchorStyles.Right;
             lblPedirId.AutoSize = true;
+            lblPedirId.BackColor = Color.Transparent;
             lblPedirId.Location = new Point(605, 32);
             lblPedirId.Name = "lblPedirId";
             lblPedirId.Size = new Size(105, 15);
@@ -283,6 +303,7 @@ namespace ProjetoPi
             // 
             // txtRequestId
             // 
+            txtRequestId.Anchor = AnchorStyles.Right;
             txtRequestId.Location = new Point(605, 50);
             txtRequestId.Name = "txtRequestId";
             txtRequestId.Size = new Size(100, 23);
@@ -290,7 +311,9 @@ namespace ProjetoPi
             // 
             // lblSenhaId
             // 
+            lblSenhaId.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             lblSenhaId.AutoSize = true;
+            lblSenhaId.BackColor = Color.Transparent;
             lblSenhaId.Location = new Point(387, 340);
             lblSenhaId.Name = "lblSenhaId";
             lblSenhaId.Size = new Size(38, 15);
@@ -299,7 +322,8 @@ namespace ProjetoPi
             // 
             // button6
             // 
-            button6.Location = new Point(274, 415);
+            button6.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            button6.Location = new Point(274, 404);
             button6.Name = "button6";
             button6.Size = new Size(102, 37);
             button6.TabIndex = 27;
@@ -309,7 +333,7 @@ namespace ProjetoPi
             // 
             // txtRequestIdJogador
             // 
-            txtRequestIdJogador.Location = new Point(189, 114);
+            txtRequestIdJogador.Location = new Point(216, 114);
             txtRequestIdJogador.Name = "txtRequestIdJogador";
             txtRequestIdJogador.Size = new Size(127, 23);
             txtRequestIdJogador.TabIndex = 28;
@@ -317,7 +341,8 @@ namespace ProjetoPi
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(189, 90);
+            label6.BackColor = Color.Transparent;
+            label6.Location = new Point(215, 96);
             label6.Name = "label6";
             label6.Size = new Size(127, 15);
             label6.TabIndex = 29;
@@ -326,7 +351,8 @@ namespace ProjetoPi
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(339, 90);
+            label7.BackColor = Color.Transparent;
+            label7.Location = new Point(348, 96);
             label7.Name = "label7";
             label7.Size = new Size(146, 15);
             label7.TabIndex = 30;
@@ -351,6 +377,7 @@ namespace ProjetoPi
             // 
             // lstSetores
             // 
+            lstSetores.Anchor = AnchorStyles.Right;
             lstSetores.FormattingEnabled = true;
             lstSetores.ItemHeight = 15;
             lstSetores.Location = new Point(605, 104);
@@ -361,6 +388,7 @@ namespace ProjetoPi
             // 
             // lstPersonagens
             // 
+            lstPersonagens.Anchor = AnchorStyles.Right;
             lstPersonagens.FormattingEnabled = true;
             lstPersonagens.ItemHeight = 15;
             lstPersonagens.Location = new Point(605, 223);
@@ -371,7 +399,9 @@ namespace ProjetoPi
             // 
             // lblSetores
             // 
+            lblSetores.Anchor = AnchorStyles.Right;
             lblSetores.AutoSize = true;
+            lblSetores.BackColor = Color.Transparent;
             lblSetores.Location = new Point(605, 86);
             lblSetores.Name = "lblSetores";
             lblSetores.Size = new Size(48, 15);
@@ -380,7 +410,9 @@ namespace ProjetoPi
             // 
             // lblPersonagens
             // 
+            lblPersonagens.Anchor = AnchorStyles.Right;
             lblPersonagens.AutoSize = true;
+            lblPersonagens.BackColor = Color.Transparent;
             lblPersonagens.Location = new Point(605, 205);
             lblPersonagens.Name = "lblPersonagens";
             lblPersonagens.Size = new Size(77, 15);
@@ -389,8 +421,10 @@ namespace ProjetoPi
             // 
             // lblRequestSetores
             // 
+            lblRequestSetores.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             lblRequestSetores.AutoSize = true;
-            lblRequestSetores.Location = new Point(485, 151);
+            lblRequestSetores.BackColor = Color.Transparent;
+            lblRequestSetores.Location = new Point(474, 151);
             lblRequestSetores.Name = "lblRequestSetores";
             lblRequestSetores.Size = new Size(88, 15);
             lblRequestSetores.TabIndex = 38;
@@ -398,8 +432,10 @@ namespace ProjetoPi
             // 
             // lblRequestPersonagem
             // 
+            lblRequestPersonagem.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             lblRequestPersonagem.AutoSize = true;
-            lblRequestPersonagem.Location = new Point(474, 205);
+            lblRequestPersonagem.BackColor = Color.Transparent;
+            lblRequestPersonagem.Location = new Point(434, 205);
             lblRequestPersonagem.Name = "lblRequestPersonagem";
             lblRequestPersonagem.Size = new Size(128, 15);
             lblRequestPersonagem.TabIndex = 39;
@@ -407,21 +443,24 @@ namespace ProjetoPi
             // 
             // txtRequestSetor
             // 
-            txtRequestSetor.Location = new Point(495, 169);
+            txtRequestSetor.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            txtRequestSetor.Location = new Point(486, 169);
             txtRequestSetor.Name = "txtRequestSetor";
             txtRequestSetor.Size = new Size(76, 23);
             txtRequestSetor.TabIndex = 40;
             // 
             // txtRequestPersonagem
             // 
-            txtRequestPersonagem.Location = new Point(495, 223);
+            txtRequestPersonagem.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            txtRequestPersonagem.Location = new Point(487, 223);
             txtRequestPersonagem.Name = "txtRequestPersonagem";
             txtRequestPersonagem.Size = new Size(75, 23);
             txtRequestPersonagem.TabIndex = 41;
             // 
             // btnColocarPersonagem
             // 
-            btnColocarPersonagem.Location = new Point(485, 252);
+            btnColocarPersonagem.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            btnColocarPersonagem.Location = new Point(460, 252);
             btnColocarPersonagem.Name = "btnColocarPersonagem";
             btnColocarPersonagem.Size = new Size(102, 47);
             btnColocarPersonagem.TabIndex = 42;
@@ -431,6 +470,7 @@ namespace ProjetoPi
             // 
             // txtTabuleiro
             // 
+            txtTabuleiro.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             txtTabuleiro.Location = new Point(215, 206);
             txtTabuleiro.Multiline = true;
             txtTabuleiro.Name = "txtTabuleiro";
@@ -439,7 +479,9 @@ namespace ProjetoPi
             // 
             // lblIdJogadorVez
             // 
+            lblIdJogadorVez.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             lblIdJogadorVez.AutoSize = true;
+            lblIdJogadorVez.BackColor = Color.Transparent;
             lblIdJogadorVez.Location = new Point(326, 151);
             lblIdJogadorVez.Name = "lblIdJogadorVez";
             lblIdJogadorVez.Size = new Size(38, 15);
@@ -448,7 +490,9 @@ namespace ProjetoPi
             // 
             // lblNomeJogadorVez
             // 
+            lblNomeJogadorVez.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             lblNomeJogadorVez.AutoSize = true;
+            lblNomeJogadorVez.BackColor = Color.Transparent;
             lblNomeJogadorVez.Location = new Point(326, 177);
             lblNomeJogadorVez.Name = "lblNomeJogadorVez";
             lblNomeJogadorVez.Size = new Size(38, 15);
@@ -457,7 +501,8 @@ namespace ProjetoPi
             // 
             // btnMostrarTabuleiro
             // 
-            btnMostrarTabuleiro.Location = new Point(474, 317);
+            btnMostrarTabuleiro.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            btnMostrarTabuleiro.Location = new Point(444, 319);
             btnMostrarTabuleiro.Name = "btnMostrarTabuleiro";
             btnMostrarTabuleiro.Size = new Size(118, 50);
             btnMostrarTabuleiro.TabIndex = 46;
@@ -469,7 +514,8 @@ namespace ProjetoPi
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = Properties.Resources.lobby_backrgound;
+            ClientSize = new Size(776, 450);
             Controls.Add(btnMostrarTabuleiro);
             Controls.Add(lblNomeJogadorVez);
             Controls.Add(lblIdJogadorVez);
@@ -514,6 +560,8 @@ namespace ProjetoPi
             Controls.Add(label1);
             Controls.Add(listBox1);
             Controls.Add(textBox1);
+            DoubleBuffered = true;
+            MinimumSize = new Size(792, 489);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
