@@ -16,6 +16,7 @@ namespace ProjetoPi
     {
         public string Versao { get; set; }
         public int idPartidaSelecionada { get; set; }
+
         public Form1()
         {
             InitializeComponent();
@@ -164,7 +165,7 @@ namespace ProjetoPi
         private string MostrarSenhaJogador()
         {
             string senha = lblSenhaId.Text;
-            senha = senha.Substring(5);
+            senha = senha.Substring(4);
 
             return senha;
         }
@@ -172,7 +173,7 @@ namespace ProjetoPi
         private int MostrarIdJogador()
         {
             string idJogador = lblSenhaId.Text;
-            idJogador = idJogador.Substring(0, 4);
+            idJogador = idJogador.Substring(0, 3);
             int idPrincipal = Convert.ToInt32(idJogador);
 
             return idPrincipal;
@@ -259,6 +260,11 @@ namespace ProjetoPi
 
         }
 
+        public void Posicionar(string comando)
+        {
+
+        }
+
         private void btnVerificarVez_Click(object sender, EventArgs e)
         {
             int idPartida = Convert.ToInt32(txtRequestId.Text);
@@ -268,17 +274,73 @@ namespace ProjetoPi
             retorno = retorno.Replace("\r", "");
             string[] jogadores = retorno.Split('\n');
 
-            for (int i = 0; i < jogadores.Length; i++)
+            for (int i = 0; i < jogadores.Length; i++) //mostra o jogador na label
             {
-                if (jogadores[i].Substring(0, 4) == codigo)
                 {
                     string[] nome = jogadores[i].Split(',');
                     lblNomeJogadorVez.Text = nome[1];
                 }
                 break;
             }
-
             lblIdJogadorVez.Text = codigo.Substring(0, 4);
+
+
+            //adiciona a imagem
+            if (Jogo.VerificarVez(idPartida) != null)
+            {
+                string valorVez = Jogo.VerificarVez(idPartida);
+                txtTabuleiro.Text = valorVez;
+
+                string[] partes = valorVez.Split(",");
+                string setor = partes[0];
+                string personagem = partes[1];
+
+                Dictionary<string, Image> imagens = new Dictionary<string, Image>()
+                {
+                    { "A", Properties.Resources.Adilson },
+                    { "B", Properties.Resources.Beatriz },
+                    { "C", Properties.Resources.Claro },
+                    { "D", Properties.Resources.D },
+                    { "E", Properties.Resources.E },
+                    { "G", Properties.Resources.G },
+                    { "H", Properties.Resources.H },
+                    { "K", Properties.Resources.K },
+                    { "L", Properties.Resources.L },
+                    { "M", Properties.Resources.M },
+                    { "Q", Properties.Resources.Q },
+                    { "R", Properties.Resources.R },
+                };
+
+                if (imagens.ContainsKey(personagem))
+                {
+                    Panel novoPanel = new Panel
+                    {
+                        Size = new Size(100, 100),
+                        BackgroundImage = imagens[personagem],
+                        BackgroundImageLayout = ImageLayout.Stretch
+                    };
+
+                    Form andar = null;
+                    switch (setor)
+                    {
+                        case "1": andar = new Andar1(); break;
+                        case "2": andar = new Andar2(); break;
+                        case "3": andar = new Andar3(); break;
+                        case "4": andar = new Andar4(); break;
+                        case "5": andar = new Andar5(); break;
+                        case "10": andar = new Andar10(); break;
+                    }
+                    if (andar != null)
+                    {
+                        andar.Controls.Add(novoPanel);
+                        andar.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Setor não encontrado!");
+                    }
+                }
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -314,8 +376,43 @@ namespace ProjetoPi
 
         private void btnMostrarTabuleiro_Click(object sender, EventArgs e)
         {
-            Tabuleiro tabuleiro = new Tabuleiro();
-            tabuleiro.ShowDialog();
+            Andar1 andar = new Andar1();
+            andar.ShowDialog();
+        }
+
+        private void txtTabuleiro_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAndar2_Click(object sender, EventArgs e)
+        {
+            Andar2 andar = new Andar2();
+            andar.ShowDialog();
+        }
+
+        private void btnAndar3_Click(object sender, EventArgs e)
+        {
+            Andar3 andar = new Andar3();
+            andar.ShowDialog();
+        }
+
+        private void btnAndar4_Click(object sender, EventArgs e)
+        {
+            Andar4 andar = new Andar4();
+            andar.ShowDialog();
+        }
+
+        private void btnAndar5_Click(object sender, EventArgs e)
+        {
+            Andar5 andar = new Andar5();
+            andar.ShowDialog();
+        }
+
+        private void btnAndar10_Click(object sender, EventArgs e)
+        {
+            Andar10 andar = new Andar10();
+            andar.ShowDialog();
         }
     }
 }

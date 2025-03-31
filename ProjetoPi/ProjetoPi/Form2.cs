@@ -23,6 +23,7 @@ namespace ProjetoPi
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Andar1 andar = new Andar1();
             Form1 form = new Form1();
             form.Versao = this.versao;
             form.AtualizarTela();

@@ -71,7 +71,12 @@ namespace ProjetoPi
             txtTabuleiro = new TextBox();
             lblIdJogadorVez = new Label();
             lblNomeJogadorVez = new Label();
-            btnMostrarTabuleiro = new Button();
+            btnAndar1 = new Button();
+            btnAndar2 = new Button();
+            btnAndar3 = new Button();
+            btnAndar4 = new Button();
+            btnAndar5 = new Button();
+            btnAndar10 = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -436,6 +441,7 @@ namespace ProjetoPi
             txtTabuleiro.Name = "txtTabuleiro";
             txtTabuleiro.Size = new Size(161, 176);
             txtTabuleiro.TabIndex = 43;
+            txtTabuleiro.TextChanged += txtTabuleiro_TextChanged;
             // 
             // lblIdJogadorVez
             // 
@@ -455,22 +461,77 @@ namespace ProjetoPi
             lblNomeJogadorVez.TabIndex = 45;
             lblNomeJogadorVez.Text = "label9";
             // 
-            // btnMostrarTabuleiro
+            // btnAndar1
             // 
-            btnMostrarTabuleiro.Location = new Point(474, 317);
-            btnMostrarTabuleiro.Name = "btnMostrarTabuleiro";
-            btnMostrarTabuleiro.Size = new Size(118, 50);
-            btnMostrarTabuleiro.TabIndex = 46;
-            btnMostrarTabuleiro.Text = "Mostrar Tabuleiro";
-            btnMostrarTabuleiro.UseVisualStyleBackColor = true;
-            btnMostrarTabuleiro.Click += btnMostrarTabuleiro_Click;
+            btnAndar1.Location = new Point(507, 317);
+            btnAndar1.Name = "btnAndar1";
+            btnAndar1.Size = new Size(64, 25);
+            btnAndar1.TabIndex = 46;
+            btnAndar1.Text = "Andar 1";
+            btnAndar1.UseVisualStyleBackColor = true;
+            btnAndar1.Click += btnMostrarTabuleiro_Click;
+            // 
+            // btnAndar2
+            // 
+            btnAndar2.Location = new Point(577, 317);
+            btnAndar2.Name = "btnAndar2";
+            btnAndar2.Size = new Size(64, 25);
+            btnAndar2.TabIndex = 47;
+            btnAndar2.Text = "Andar 2";
+            btnAndar2.UseVisualStyleBackColor = true;
+            btnAndar2.Click += btnAndar2_Click;
+            // 
+            // btnAndar3
+            // 
+            btnAndar3.Location = new Point(647, 317);
+            btnAndar3.Name = "btnAndar3";
+            btnAndar3.Size = new Size(64, 25);
+            btnAndar3.TabIndex = 48;
+            btnAndar3.Text = "Andar 3";
+            btnAndar3.UseVisualStyleBackColor = true;
+            btnAndar3.Click += btnAndar3_Click;
+            // 
+            // btnAndar4
+            // 
+            btnAndar4.Location = new Point(509, 348);
+            btnAndar4.Name = "btnAndar4";
+            btnAndar4.Size = new Size(64, 25);
+            btnAndar4.TabIndex = 49;
+            btnAndar4.Text = "Andar 4";
+            btnAndar4.UseVisualStyleBackColor = true;
+            btnAndar4.Click += btnAndar4_Click;
+            // 
+            // btnAndar5
+            // 
+            btnAndar5.Location = new Point(577, 348);
+            btnAndar5.Name = "btnAndar5";
+            btnAndar5.Size = new Size(64, 25);
+            btnAndar5.TabIndex = 50;
+            btnAndar5.Text = "Andar 5";
+            btnAndar5.UseVisualStyleBackColor = true;
+            btnAndar5.Click += btnAndar5_Click;
+            // 
+            // btnAndar10
+            // 
+            btnAndar10.Location = new Point(647, 348);
+            btnAndar10.Name = "btnAndar10";
+            btnAndar10.Size = new Size(64, 25);
+            btnAndar10.TabIndex = 51;
+            btnAndar10.Text = "Andar 10";
+            btnAndar10.UseVisualStyleBackColor = true;
+            btnAndar10.Click += btnAndar10_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(btnMostrarTabuleiro);
+            Controls.Add(btnAndar10);
+            Controls.Add(btnAndar5);
+            Controls.Add(btnAndar4);
+            Controls.Add(btnAndar3);
+            Controls.Add(btnAndar2);
+            Controls.Add(btnAndar1);
             Controls.Add(lblNomeJogadorVez);
             Controls.Add(lblIdJogadorVez);
             Controls.Add(txtTabuleiro);
@@ -565,6 +626,11 @@ namespace ProjetoPi
         private TextBox txtTabuleiro;
         private Label lblIdJogadorVez;
         private Label lblNomeJogadorVez;
-        private Button btnMostrarTabuleiro;
+        private Button btnAndar1;
+        private Button btnAndar2;
+        private Button btnAndar3;
+        private Button btnAndar4;
+        private Button btnAndar5;
+        private Button btnAndar10;
     }
 }
