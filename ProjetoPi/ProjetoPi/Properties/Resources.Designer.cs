@@ -83,6 +83,16 @@ namespace ProjetoPi.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Andar0 {
+            get {
+                object obj = ResourceManager.GetObject("Andar0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap andar1 {
             get {
                 object obj = ResourceManager.GetObject("andar1", resourceCulture);

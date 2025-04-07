@@ -172,23 +172,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BIA\\.nuget\\packages\\": {},
+    "C:\\Users\\kaue.sibiapino\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BIA\\source\\repos\\reposit-rio\\ProjetoPi\\ProjetoPi\\ProjetoPi.csproj",
+      "projectUniqueName": "C:\\Users\\kaue.sibiapino\\Downloads\\sexo\\reposit-rio\\ProjetoPi\\ProjetoPi\\ProjetoPi.csproj",
       "projectName": "ProjetoPi",
-      "projectPath": "C:\\Users\\BIA\\source\\repos\\reposit-rio\\ProjetoPi\\ProjetoPi\\ProjetoPi.csproj",
-      "packagesPath": "C:\\Users\\BIA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BIA\\source\\repos\\reposit-rio\\ProjetoPi\\ProjetoPi\\obj\\",
+      "projectPath": "C:\\Users\\kaue.sibiapino\\Downloads\\sexo\\reposit-rio\\ProjetoPi\\ProjetoPi\\ProjetoPi.csproj",
+      "packagesPath": "C:\\Users\\kaue.sibiapino\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kaue.sibiapino\\Downloads\\sexo\\reposit-rio\\ProjetoPi\\ProjetoPi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\BIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kaue.sibiapino\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -197,6 +197,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -214,7 +215,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -244,7 +246,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

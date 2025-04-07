@@ -121,14 +121,20 @@
   <data name="R" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Q.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="andar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\andar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="andar4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\andar4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Adilson" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Adilson.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="K" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\K.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="andar10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\andar10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,17 +145,17 @@
   <data name="andar 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\andar 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tabuleiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tabuleiro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="G" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="E" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\E.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="andar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\andar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="D" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Q.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="L" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,22 +163,19 @@
   <data name="H" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\H.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="andar5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\andar5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="andar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\andar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tabuleiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tabuleiro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="M" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\M.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="andar5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\andar5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="K" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\K.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Adilson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Adilson.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="andar10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\andar10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Andar0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Andar0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
